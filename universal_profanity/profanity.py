@@ -20,7 +20,6 @@ _DEFAULT_REPLACE_CHARS = '@#!*$^%'
 class UniversalProfanity:
     def __init__(self, country: str | list = 'en', replace_chars: str = _DEFAULT_REPLACE_CHARS):
         self.validate_country(country)
-
         self._censor_chars = replace_chars
         self._censor_pool = []
         self._profanity_pattern = self.generate_pattern(country)

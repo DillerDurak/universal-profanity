@@ -11,6 +11,7 @@ setup(
     version='0.1.1',
     description='Python library for text censoring in multiple languages.',
     long_description=long_description,
+    long_description_content_type='text/markdown',
     author='DillerDurak',
     author_email='isdedtool@gmail.com',
     maintainer='DillerDurak',
